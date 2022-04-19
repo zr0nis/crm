@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/bid', function () {
+    return view('bid');
+});
